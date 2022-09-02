@@ -1,2 +1,2 @@
 #!/bin/basch
-chown -R vincent:staff hello
+chown vincent:staff *
