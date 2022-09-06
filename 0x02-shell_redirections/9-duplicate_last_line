@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -1 iacta >> /etc/hosts
+tail -1 file1 >> file2
