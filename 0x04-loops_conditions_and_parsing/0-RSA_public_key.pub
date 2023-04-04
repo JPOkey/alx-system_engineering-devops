@@ -1,1 +1,2 @@
-SHA256:Hb1zIb225FoHSuleR2AuN1g03MN6TACKjXcQyTCfxpM
+#!/usr/bin/env bash
+ssh-rsa 2048 SHA256:JakiT8xYgX5BEXPdl8WEFKotGuoLHdk/W+6qtIo2eg0
