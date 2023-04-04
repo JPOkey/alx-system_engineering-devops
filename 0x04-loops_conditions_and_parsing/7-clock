@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Display time for 12 hours and 59 minutes
+hour=0
+minute=1
+
+# Loop until hour is 12 and minute is 59
+while [ $hour -le 12 ] && [ $minute -le 59 ]; do
+    # Print the current time
+    printf "%02d:%02d\n" $hour $minute
+
+    # Increment minute
+    minute=$((minute + 1))
+
+    # If minute reaches 60, reset it to 0 and increment hour
+    if [ $minute -eq 60 ]; then
+        minute=0
+        hour=$((hour + 1))
+    fi
+done | head -n 70
+
